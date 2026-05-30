@@ -1,10 +1,9 @@
 import { useState } from "react";
 
-// Extra reference images (generic washing machine photos from Unsplash)
 const extraImages = [
-    "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=700&q=80",
-    "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?w=700&q=80",
-    "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?w=700&q=80",
+    "/images/lavadoras/lavadora-mabe-carga-superior-20-kilos-lma0220wdgab0-gris-interior.avif",
+    "/images/lavadoras/lavadora-mabe-carga-superior-20-kilos-lma0220wdgab0-gris-medidas.avif",
+    "/images/lavadoras/lavadora-lg-carga-superior-19-kilos-wt19ovtb-negro2.avif",
 ];
 
 export default function DetailGallery({ product }) {

@@ -15,7 +15,7 @@ const products = [
         tipo: "Carga superior",
         precio: "Desde $950.000",
         precioNum: 950000,
-        image: "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?w=700&q=80",
+        image: "/images/lavadoras/lavadora-lg-carga-superior-19-kilos-wt19ovtb-negro.avif",
         msg: "Hola, estoy interesado en la categoría LG TurboDrum - Línea Premium. ¿Qué opciones tienen disponibles?",
     },
     {
@@ -27,7 +27,7 @@ const products = [
         tipo: "Digital",
         precio: "Desde $870.000",
         precioNum: 870000,
-        image: "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?w=700&q=80",
+        image: "/images/lavadoras/lavadora-samsung-bespoke-carga-superior-ai-wash-13-kilos-wa80f13s5bco-negra.avif",
         msg: "Hola, estoy interesado en la categoría Samsung Digital 18 lb - Línea Premium. ¿Qué opciones tienen disponibles?",
     },
     {
@@ -39,7 +39,7 @@ const products = [
         tipo: "Carga superior",
         precio: "Desde $650.000",
         precioNum: 650000,
-        image: "https://images.unsplash.com/photo-1469460340997-2f854421e72f?w=700&q=80",
+        image: "/images/lavadoras/lavadora-gris.avif",
         msg: "Hola, estoy interesado en la categoría Haceb Carga Superior - Línea Estándar. ¿Qué opciones tienen disponibles?",
     },
     {
@@ -51,7 +51,7 @@ const products = [
         tipo: "Automática",
         precio: "Desde $720.000",
         precioNum: 720000,
-        image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=700&q=80",
+        image: "/images/lavadoras/lavadora-gris2.avif",
         msg: "Hola, estoy interesado en la categoría Whirlpool Automática - Línea Estándar. ¿Qué opciones tienen disponibles?",
     },
     {
@@ -63,7 +63,7 @@ const products = [
         tipo: "Automática",
         precio: "Desde $780.000",
         precioNum: 780000,
-        image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700&q=80",
+        image: "/images/lavadoras/lavadora-mabe-carga-superior-20-kilos-lma0220wdgab0-gris.avif",
         msg: "Hola, estoy interesado en la categoría Mabe 20 libras - Línea Estándar. ¿Qué opciones tienen disponibles?",
     },
 ];
