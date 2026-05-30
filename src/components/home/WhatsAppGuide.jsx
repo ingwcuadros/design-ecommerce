@@ -1,4 +1,5 @@
 import { useReveal } from "@/hooks/useReveal";
+import { Link } from "react-router-dom";
 
 const WHATSAPP_NUMBER = "573001234567";
 const WA_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hola, quiero ayuda para elegir una lavadora restaurada para mi hogar 🙂")}`;
@@ -135,15 +136,15 @@ export default function WhatsAppGuide() {
 
                         {/* CTAs */}
                         <div className="flex flex-wrap gap-3">
-                            <a
-                                href="#catalogo"
+                            <Link
+                                to="/lavadoras"
                                 className="inline-flex items-center gap-2 bg-green-deep text-white font-semibold px-6 py-3.5 rounded-xl hover:opacity-90 active:scale-95 transition-all font-inter text-sm shadow-lg shadow-green-deep/25"
                             >
                                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" />
                                 </svg>
                                 Ver catálogo
-                            </a>
+                            </Link>
                             <a
                                 href={WA_URL}
                                 target="_blank"

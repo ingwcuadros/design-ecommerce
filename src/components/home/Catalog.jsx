@@ -235,15 +235,13 @@ export default function Catalog() {
 
                 {/* Bottom CTA */}
                 <div className="text-center">
-                    <a
-                        href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hola, quiero ver todas las opciones disponibles de lavadoras 🙂")}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <Link
+                        to="/lavadoras"
                         className="inline-flex items-center gap-2.5 bg-white border border-green-deep/30 text-green-deep font-semibold font-inter text-sm px-7 py-3.5 rounded-xl hover:bg-green-deep hover:text-white hover:border-green-deep transition-all duration-200 shadow-sm"
                     >
                         Ver todas las opciones
                         <ChevronRight className="w-4 h-4" />
-                    </a>
+                    </Link>
                     <p className="text-xs text-muted-foreground font-inter mt-3">
                         ¿Buscas un modelo específico?{" "}
                         <a

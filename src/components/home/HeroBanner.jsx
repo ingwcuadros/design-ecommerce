@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import { Link } from "react-router-dom";
 
 const WHATSAPP_NUMBER = "573001234567";
 
@@ -144,12 +145,12 @@ function MainSlider() {
                             <WaIcon />
                             Lo quiero
                         </a>
-                        <a
-                            href="#catalogo"
+                        <Link
+                            to="/lavadoras"
                             className="inline-flex items-center gap-1.5 bg-white/15 backdrop-blur-sm border border-white/30 text-white font-medium text-sm font-inter px-5 py-3 rounded-xl hover:bg-white/25 active:scale-95 transition-all"
                         >
                             Ver opciones
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
