@@ -131,7 +131,7 @@ export default function CatalogFilters({ filters, setFilters }) {
         setFilters((prev) => ({ ...prev, precioMin: min, precioMax: max }));
 
     return (
-        <div id="catalogo" className="sticky top-0 z-30 bg-background pt-6">
+        <div id="catalogo" className="sticky top-16 z-30 bg-background pt-6 scroll-mt-16">
             <div className="max-w-[1400px] mx-auto px-6 md:px-10 pb-6 space-y-4 border-b border-border">
 
                 {/* Row 1: Línea */}
